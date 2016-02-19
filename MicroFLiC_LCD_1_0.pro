@@ -1,4 +1,4 @@
-update=Fri 11 Dec 2015 10:19:01 GMT
+update=Fri 19 Feb 2016 13:33:03 GMT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/jakub/KiCAD/share/library/contrib/jakub/jakub
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

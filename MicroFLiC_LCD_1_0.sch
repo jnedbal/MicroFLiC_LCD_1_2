@@ -66,9 +66,14 @@ F 0 "P1" H 1550 2500 50  0000 C CNN
 F 1 "2x8 pin header" V 1550 2050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 1550 850 50  0001 C CNN
 F 3 "" H 1550 850 50  0000 C CNN
-F 4 "HTSW-108-05-G-D" H 1550 2050 60  0001 C CNN "Part Number"
-F 5 "Samtec" H 1550 2050 60  0001 C CNN "Manufacturer"
-F 6 "2254695" H 1550 2050 60  0001 C CNN "Order Code"
+F 4 "M20-9980845" H 1550 2050 60  0001 C CNN "Part Number"
+F 5 "Harwin" H 1550 2050 60  0001 C CNN "Manufacturer"
+F 6 "DIL-16" H 1550 2050 60  0001 C CNN "Package"
+F 7 "Farnell" H 1550 2050 60  0001 C CNN "Supplier"
+F 8 "1022239" H 1550 2050 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 1550 2050 60  0001 C CNN "Alt. Supplier"
+F 10 "855-M20-9980845" H 1550 2050 60  0001 C CNN "Alt. Order Code"
+F 11 "2x8 pin header" H 1550 2050 60  0001 C CNN "Note"
 	1    1550 2050
 	1    0    0    -1  
 $EndComp
@@ -507,7 +512,7 @@ F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 9000 4700 60  0001 C CNN
 F 3 "" H 9000 4700 60  0000 C CNN
 F 4 "TLV2371IDBVT" H 9000 4700 60  0001 C CNN "Part Number"
 F 5 "Texas Instruments" H 9000 4700 60  0001 C CNN "Manufacturer"
-F 6 "8454990 " H 9000 4700 60  0001 C CNN "Order Code"
+F 6 "8454990" H 9000 4700 60  0001 C CNN "Order Code"
 	1    9000 4700
 	1    0    0    -1  
 $EndComp
@@ -895,4 +900,74 @@ F 6 "2253864" H 10000 5650 60  0001 C CNN "Order Code"
 $EndComp
 Text Notes 8850 1050 0    60   ~ 0
 20x4 alphanumeric LCD
+$Comp
+L CONN_01X16 P2
+U 1 1 56C7B208
+P 10600 2250
+F 0 "P2" H 10600 3100 50  0000 C CNN
+F 1 "1x16 pin header" V 10700 2250 50  0000 C CNN
+F 2 "" H 10600 2250 50  0000 C CNN
+F 3 "" H 10600 2250 50  0000 C CNN
+F 4 "61301611121" H 10600 2250 60  0001 C CNN "Part Number"
+F 5 "Werth Elektronik" H 10600 2250 60  0001 C CNN "Manufacturer"
+F 6 "SIL-16" H 10600 2250 60  0001 C CNN "Package"
+F 7 "Farnell" H 10600 2250 60  0001 C CNN "Supplier"
+F 8 "2356166" H 10600 2250 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 10600 2250 60  0001 C CNN "Alt. Supplier"
+F 10 "710-61301611121" H 10600 2250 60  0001 C CNN "Alt. Order Code"
+F 11 "1x16 header strip" H 10600 2250 60  0001 C CNN "Note"
+	1    10600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X16 P3
+U 1 1 56C7B356
+P 11000 2250
+F 0 "P3" H 11000 3100 50  0000 C CNN
+F 1 "1x16 pin socket" V 11100 2250 50  0000 C CNN
+F 2 "" H 11000 2250 50  0000 C CNN
+F 3 "" H 11000 2250 50  0000 C CNN
+F 4 "6-534237-4" H 11000 2250 60  0001 C CNN "Part Number"
+F 5 "TE Connectivity" H 11000 2250 60  0001 C CNN "Manufacturer"
+F 6 "SIL-16" H 11000 2250 60  0001 C CNN "Package"
+F 7 "Farnell" H 11000 2250 60  0001 C CNN "Supplier"
+F 8 "2311164" H 11000 2250 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 11000 2250 60  0001 C CNN "Alt. Supplier"
+F 10 "571-6-534237-4" H 11000 2250 60  0001 C CNN "Alt. Order Code"
+F 11 "1x16 general socket strip" H 11000 2250 60  0001 C CNN "Note"
+	1    11000 2250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10800 3000
+NoConn ~ 10800 2900
+NoConn ~ 10800 2800
+NoConn ~ 10800 2700
+NoConn ~ 10800 2600
+NoConn ~ 10800 2500
+NoConn ~ 10800 2400
+NoConn ~ 10800 2300
+NoConn ~ 10800 2200
+NoConn ~ 10800 2100
+NoConn ~ 10800 2000
+NoConn ~ 10800 1900
+NoConn ~ 10800 1800
+NoConn ~ 10800 1700
+NoConn ~ 10800 1600
+NoConn ~ 10800 1500
+NoConn ~ 10400 1500
+NoConn ~ 10400 1600
+NoConn ~ 10400 1700
+NoConn ~ 10400 1800
+NoConn ~ 10400 1900
+NoConn ~ 10400 2000
+NoConn ~ 10400 2100
+NoConn ~ 10400 2200
+NoConn ~ 10400 2300
+NoConn ~ 10400 2400
+NoConn ~ 10400 2500
+NoConn ~ 10400 2600
+NoConn ~ 10400 2700
+NoConn ~ 10400 2800
+NoConn ~ 10400 2900
+NoConn ~ 10400 3000
 $EndSCHEMATC

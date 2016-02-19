@@ -1,0 +1,16 @@
+Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Order Code, Package, Supplier, Alt. Supplier, Alt. Order Code, Note
+A1 ,1,Arduino Micro,jakub:ArduinoMicro,,A000053,Arduino,2285194,,,,,
+C1 ,1,10u,Capacitors_SMD:C_0805,,GRM21BR61A106KE19L,Murata,1828805,,,,,
+C2 C3 C4 C5 ,4,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,1759166,,,,,
+LCD1 ,1,LCD2004,jakub:LCD2004,,MC42005A12W-VNMLR,Midas,2483355,,,,,
+P1 ,1,2x8 pin header,Pin_Headers:Pin_Header_Straight_2x08,,HTSW-108-05-G-D,Samtec,2254695,,,,,
+P2 ,1,1x16 pin header,,,61301611121,Werth Elektronik,2356166,SIL-16,Farnell,Mouser,710-61301611121,1x16 header strip
+P3 ,1,1x16 pin socket,,,6-534237-4,TE Connectivity,2311164,SIL-16,Farnell,Mouser,571-6-534237-4,1x16 general socket strip
+PP1 PP2 PP3 PP4 ,4,CONN_01X01,jakub:PIN_ARRAY_1,
+Q1 ,1,BCX54-16,TO_SOT_Packages_SMD:SOT89-3_Housing,,BCX54-16,NXP,8734950,,,,,
+R1 ,1,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,2073607,,,,,
+R2 R3 ,2,18R(0.25W),Resistors_SMD:R_0805,,ERJP6WF18R0V,Panasonic,2253864,,,,,
+R4 ,1,1K5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,2447592,,,,,
+U1 ,1,MCP4728,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,MCP4728-E/UN,Microchip,1800217,,,,,
+U2 ,1,TLV2371,TO_SOT_Packages_SMD:SOT-23-5,,TLV2371IDBVT,Texas Instruments,8454990,,,,,
+U3 U4 ,2,74AHCT367,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,SN74AHCT367D,Texas Instruments,1740954,SOIC-16,Farnell,Mouser,595-SN74AHCT367D,Hex buffer and line driver with 3-state output
