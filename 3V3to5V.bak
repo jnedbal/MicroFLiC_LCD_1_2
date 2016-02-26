@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_LCD_1_0-cache
+LIBS:MicroFLiC_LCD-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -73,7 +73,12 @@ F 2 "Capacitors_SMD:C_0805" H 5838 2100 50  0001 C CNN
 F 3 "" H 5800 2250 50  0000 C CNN
 F 4 "MC0805B104K250CT" H 5800 2250 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5800 2250 60  0001 C CNN "Manufacturer"
-F 6 "1759166" H 5800 2250 60  0001 C CNN "Order Code"
+F 6 "0805" H 5800 2250 60  0001 C CNN "Package"
+F 7 "Farnell" H 5800 2250 60  0001 C CNN "Supplier"
+F 8 "1759166" H 5800 2250 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5800 2250 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012207098" H 5800 2250 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0805 ceramic capacitor" H 5800 2250 60  0001 C CNN "Note"
 	1    5800 2250
 	1    0    0    -1  
 $EndComp
@@ -203,7 +208,12 @@ F 2 "Capacitors_SMD:C_0805" H 5838 4600 50  0001 C CNN
 F 3 "" H 5800 4750 50  0000 C CNN
 F 4 "MC0805B104K250CT" H 5800 4750 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5800 4750 60  0001 C CNN "Manufacturer"
-F 6 "1759166" H 5800 4750 60  0001 C CNN "Order Code"
+F 6 "0805" H 5800 4750 60  0001 C CNN "Package"
+F 7 "Farnell" H 5800 4750 60  0001 C CNN "Supplier"
+F 8 "1759166" H 5800 4750 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5800 4750 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012207098" H 5800 4750 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0805 ceramic capacitor" H 5800 4750 60  0001 C CNN "Note"
 	1    5800 4750
 	1    0    0    -1  
 $EndComp
@@ -355,7 +365,12 @@ F 2 "Resistors_SMD:R_0805" V 4230 5100 50  0001 C CNN
 F 3 "" H 4300 5100 50  0000 C CNN
 F 4 "MCWR08X1501FTL" V 4300 5100 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 4300 5100 60  0001 C CNN "Manufacturer"
-F 6 "2447592" V 4300 5100 60  0001 C CNN "Order Code"
+F 6 "0805" H 4300 5100 60  0001 C CNN "Package"
+F 7 "Farnell" H 4300 5100 60  0001 C CNN "Supplier"
+F 8 "2447592" V 4300 5100 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4300 5100 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-1.5K-E3" H 4300 5100 60  0001 C CNN "Alt. Order Code"
+F 11 "1.5kΩ/1% 0805 resistor" H 4300 5100 60  0001 C CNN "Note"
 	1    4300 5100
 	0    1    1    0   
 $EndComp
