@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_LCD_1_1/MicroFLiC_LCD.sch</source>
-    <date>Wed 02 Mar 2016 12:29:37 GMT</date>
+    <date>Wed 02 Mar 2016 14:35:42 GMT</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -72,7 +72,7 @@
       <fields>
         <field name="Part Number">MC42005A12W-VNMLR</field>
         <field name="Manufacturer">Midas</field>
-        <field name="Package">98x60mm</field>
+        <field name="Package">98mm×60mm</field>
         <field name="Supplier">Farnell</field>
         <field name="Order Code">2483355</field>
         <field name="Alt. Supplier">Mouser</field>
@@ -605,11 +605,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>

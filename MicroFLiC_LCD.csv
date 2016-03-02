@@ -2,7 +2,7 @@ Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Pac
 A1 ,1,Arduino MICRO,jakub:ArduinoMicro,,A000053,Arduino,Arduino MICRO,Farnell,2285194,Arduino.cc,Arduino MICRO,Arduino/Genuino MICRO development board
 C1 ,1,10u/10V,Capacitors_SMD:C_0805,,GRM21BR61A106KE19L,Murata,0805,Farnell,1828805,Mouser,81-GRM21BR61A106KE19,10μF/10V X5R 0805 ceramic capacitor
 C2 C3 C4 C5 ,4,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
-LCD1 ,1,LCD2004,jakub:LCD2004,,MC42005A12W-VNMLR,Midas,98x60mm,Farnell,2483355,Mouser,763-0420DZ-FL-YBW,20x4 character liquid crystal display
+LCD1 ,1,LCD2004,jakub:LCD2004,,MC42005A12W-VNMLR,Midas,98mm×60mm,Farnell,2483355,Mouser,763-0420DZ-FL-YBW,20x4 character liquid crystal display
 P1 ,1,2x8 header strip,Pin_Headers:Pin_Header_Straight_2x08,,M20-9980845,Harwin,DIL-16,Farnell,1022239,Mouser,855-M20-9980845,2x8 dual header strip
 P2 ,1,1x16 header strip,,,61301611121,Wurth Elektronik,SIL-16,Farnell,2356166,Mouser,710-61301611121,1x16 header strip
 P3 ,1,1x16 socket strip,,,6-534237-4,TE Connectivity,SIL-16,Farnell,2311164,Mouser,571-6-534237-4,1x16 general socket strip
