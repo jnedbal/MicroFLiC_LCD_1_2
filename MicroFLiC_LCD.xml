@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_LCD_1_1/MicroFLiC_LCD.sch</source>
-    <date>Fri 26 Feb 2016 21:48:19 GMT</date>
-    <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
+    <date>Wed 02 Mar 2016 12:29:37 GMT</date>
+    <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -348,7 +348,7 @@
       <tstamp>566F689A</tstamp>
     </comp>
     <comp ref="R4">
-      <value>1K5</value>
+      <value>1k5</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Part Number">MCWR08X1501FTL</field>
@@ -606,13 +606,13 @@
   </libparts>
   <libraries>
     <library logical="device">
-      <uri>/usr/local/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>

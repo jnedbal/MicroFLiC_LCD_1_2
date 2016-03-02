@@ -673,7 +673,7 @@
       (net 16 /LCD_BKL))
     (pad 2 smd trapezoid (at 0 0.7493 270) (size 1.50114 0.7493) (rect_delta 0 0.50038 ) (layers F.Cu F.Paste F.Mask)
       (net 16 /LCD_BKL))
-    (model Housings_SOT-89.3dshapes/SOT89-3_Housing.wrl
+    (model TO_SOT_Packages_SMD.3dshapes/SOT89-3_Housing.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))

@@ -446,9 +446,7 @@ $EndComp
 Wire Wire Line
 	5700 3950 4800 3950
 Wire Wire Line
-	4800 3950 4800 5200
-Wire Wire Line
-	4800 5200 4800 5300
+	4800 3950 4800 5300
 Wire Wire Line
 	5700 3950 5800 4050
 $Comp
@@ -490,9 +488,7 @@ F 11 "10μF/10V X5R 0805 ceramic capacitor" H 4300 5450 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 5800 4800 5800
-Wire Wire Line
-	4800 5800 5700 5800
+	4300 5800 5700 5800
 Wire Wire Line
 	4800 5800 4800 5600
 Wire Wire Line
@@ -556,9 +552,7 @@ F 11 "3 MHz rail-to-rail input/output operational amplifier" H 9000 4700 60  000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 2600 9500 3000
-Wire Wire Line
-	9500 3000 9500 3100
+	9500 2600 9500 3100
 Wire Wire Line
 	9600 1600 9500 1600
 Wire Wire Line
@@ -594,9 +588,7 @@ F 11 "18Ω/1%/500mW 0805 resistor" H 10000 5250 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 4900 10000 5000
-Wire Wire Line
-	10000 5000 10000 5100
+	10000 4900 10000 5100
 Wire Wire Line
 	9800 5000 10000 5000
 Connection ~ 10000 5000
