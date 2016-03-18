@@ -1,16 +1,15 @@
 Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Alt. Supplier, Alt. Order Code, Note
 A1 ,1,Arduino MICRO,jakub:ArduinoMicro,,A000053,Arduino,Arduino MICRO,Farnell,2285194,Arduino.cc,Arduino MICRO,Arduino/Genuino MICRO development board
-C1 ,1,10u/10V,Capacitors_SMD:C_0805,,GRM21BR61A106KE19L,Murata,0805,Farnell,1828805,Mouser,81-GRM21BR61A106KE19,10μF/10V X5R 0805 ceramic capacitor
-C2 C3 C4 C5 ,4,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
+C1 C2 C4 C6 ,4,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
+C3 C5 C7 ,3,4u7/25V,Capacitors_SMD:C_0805,,GRM21BR61E475MA12L,Murata,0805,Farnell,2362111,Mouser,81-GRM21BR61E475MA2L,4.7μF/25V X5R 0805 ceramic capacitor
 LCD1 ,1,LCD2004,jakub:LCD2004,,MC42005A12W-VNMLR,Midas,98mm×60mm,Farnell,2483355,Mouser,763-0420DZ-FL-YBW,20x4 character liquid crystal display
 P1 ,1,2x8 header strip,Pin_Headers:Pin_Header_Straight_2x08,,M20-9980845,Harwin,DIL-16,Farnell,1022239,Mouser,855-M20-9980845,2x8 dual header strip
-P2 ,1,1x16 header strip,,,61301611121,Wurth Elektronik,SIL-16,Farnell,2356166,Mouser,710-61301611121,1x16 header strip
-P3 ,1,1x16 socket strip,,,6-534237-4,TE Connectivity,SIL-16,Farnell,2311164,Mouser,571-6-534237-4,1x16 general socket strip
 PP1 PP2 PP3 PP4 ,4,CONN_01X01,jakub:PIN_ARRAY_1,
-Q1 ,1,BCX54-16,TO_SOT_Packages_SMD:SOT89-3_Housing,,BCX54-16,NXP Semiconductors,SOT-89,Farnell,8734950,Mouser,771-BCX54-16-T/R,Bipolar SOT-89 NPN transistor
-R1 ,1,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,0805,Farnell,2073607,Mouser,71-CRCW0805-10K-E3,10kΩ/1% 0805 resistor
-R2 R3 ,2,18R(0.5W),Resistors_SMD:R_0805,,ERJP6WF18R0V,Panasonic,0805,Farnell,2253864,Mouser,667-ERJ-P6WF18R0V,18Ω/1%/500mW 0805 resistor
-R4 ,1,1k5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,0805,Farnell,2447592,Mouser,71-CRCW0805-1.5K-E3,1.5kΩ/1% 0805 resistor
-U1 ,1,MCP4728,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,MCP4728-E/UN,Microchip,MSOP-10,Farnell,1800217,Mouser,579-MCP4728-E/UN,12-bit quad digital-to-analog converter with EEPROM memory
-U2 ,1,TLV2371,TO_SOT_Packages_SMD:SOT-23-5,,TLV2371IDBVT,Texas Instruments,SOT-23-5,Farnell,8454990,Mouser,595-TLV2371IDBVT,3 MHz rail-to-rail input/output operational amplifier
-U3 U4 ,2,74AHCT367,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,SN74AHCT367D,Texas Instruments,SOIC-16,Farnell,1740954,Mouser,595-SN74AHCT367D,Hex buffer and line driver with 3-state output
+Q1 ,1,MJD31CT4G,TO_SOT_Packages_SMD:TO-252-2Lead,,MJD31CT4G,ON Semiconductor,TO-252,Farnell,2317563,Mouser,863-MJD31CT4G,Bipolar TO-252 NPN transistor
+R1 ,1,1k5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,0805,Farnell,2447592,Mouser,71-CRCW0805-1.5K-E3,1.5kΩ/1% 0805 resistor
+R2 R4 R5 R6 ,4,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,0805,Farnell,2073607,Mouser,71-CRCW0805-10K-E3,10kΩ/1% 0805 resistor
+R3 ,1,100k,Resistors_SMD:R_0805,,MCWR08X1003FTL,Multicomp,0805,Farnell,2447551,Mouser,71-CRCW0805-100K-E3,100kΩ/1% 0805 resistor
+R7 ,1,47R,Resistors_SMD:R_0805,,WR08X47R0FTL,Walsin,0805,Farnell,2502729,Mouser,667-ERJ-6GEYJ470V,47Ω/1% 0805 resistor
+U1 U2 ,2,74AHCT367,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,SN74AHCT367D,Texas Instruments,SOIC-16,Farnell,1740954,Mouser,595-SN74AHCT367D,Hex buffer and line driver with 3-state output
+U3 ,1,MCP4728,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,MCP4728-E/UN,Microchip,MSOP-10,Farnell,1800217,Mouser,579-MCP4728-E/UN,12-bit quad digital-to-analog converter with EEPROM memory
+U4 ,1,TLV2371,TO_SOT_Packages_SMD:SOT-23-5,,TLV2371IDBVT,Texas Instruments,SOT-23-5,Farnell,8454990,Mouser,595-TLV2371IDBVT,3 MHz rail-to-rail input/output operational amplifier
