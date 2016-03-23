@@ -9,7 +9,7 @@ Q1 ,1,MJD31CT4G,TO_SOT_Packages_SMD:TO-252-2Lead,,MJD31CT4G,ON Semiconductor,TO-
 R1 ,1,1k5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,0805,Farnell,2447592,Mouser,71-CRCW0805-1.5K-E3,1.5kΩ/1% 0805 resistor
 R2 R4 R5 R6 ,4,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,0805,Farnell,2073607,Mouser,71-CRCW0805-10K-E3,10kΩ/1% 0805 resistor
 R3 ,1,100k,Resistors_SMD:R_0805,,MCWR08X1003FTL,Multicomp,0805,Farnell,2447551,Mouser,71-CRCW0805-100K-E3,100kΩ/1% 0805 resistor
-R7 ,1,47R,Resistors_SMD:R_0805,,WR08X47R0FTL,Walsin,0805,Farnell,2502729,Mouser,667-ERJ-6GEYJ470V,47Ω/1% 0805 resistor
+R7 ,1,47R,Resistors_SMD:R_0805,,MCWR08X47R0FTL,Multicomp,0805,Farnell,2447666,Mouser,667-ERJ-6GEYJ470V,47Ω/1% 0805 resistor
 U1 U2 ,2,74AHCT367,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,SN74AHCT367D,Texas Instruments,SOIC-16,Farnell,1740954,Mouser,595-SN74AHCT367D,Hex buffer and line driver with 3-state output
 U3 ,1,MCP4728,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,MCP4728-E/UN,Microchip,MSOP-10,Farnell,1800217,Mouser,579-MCP4728-E/UN,12-bit quad digital-to-analog converter with EEPROM memory
 U4 ,1,TLV2371,TO_SOT_Packages_SMD:SOT-23-5,,TLV2371IDBVT,Texas Instruments,SOT-23-5,Farnell,8454990,Mouser,595-TLV2371IDBVT,3 MHz rail-to-rail input/output operational amplifier
