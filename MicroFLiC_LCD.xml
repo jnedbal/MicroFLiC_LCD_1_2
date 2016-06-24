@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jakub/KiCAD/MicroFLiC_LCD_1_1/MicroFLiC_LCD.sch</source>
-    <date>Wed 23 Mar 2016 10:51:30 GMT</date>
-    <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
+    <source>/home/jakub/KiCAD/MicroFLiC_LCD_1_2/MicroFLiC_LCD.sch</source>
+    <date>Fri 24 Jun 2016 17:41:54 BST</date>
+    <tool>Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -345,23 +345,6 @@
       <sheetpath names="/DAC/" tstamps="/56EC020E/"/>
       <tstamp>56EC0F41</tstamp>
     </comp>
-    <comp ref="C7">
-      <value>4u7/25V</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="Part Number">GRM21BR61E475MA12L</field>
-        <field name="Manufacturer">Murata</field>
-        <field name="Package">0805</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">2362111</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">81-GRM21BR61E475MA2L</field>
-        <field name="Note">4.7μF/25V X5R 0805 ceramic capacitor</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DAC/" tstamps="/56EC020E/"/>
-      <tstamp>56EC12CB</tstamp>
-    </comp>
     <comp ref="R7">
       <value>47R</value>
       <footprint>Resistors_SMD:R_0805</footprint>
@@ -446,6 +429,108 @@
       <libsource lib="device" part="C"/>
       <sheetpath names="/DAC/" tstamps="/56EC020E/"/>
       <tstamp>56EC0212</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>6R8</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08W6R80FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2447032</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">603-RC0805FR-076R8L</field>
+        <field name="Note">6.8Ω/1% 0805 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DAC/" tstamps="/56EC020E/"/>
+      <tstamp>576D3D87</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>6R8</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08W6R80FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2447032</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">603-RC0805FR-076R8L</field>
+        <field name="Note">6.8Ω/1% 0805 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DAC/" tstamps="/56EC020E/"/>
+      <tstamp>576D4DAB</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>6R8</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08W6R80FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2447032</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">603-RC0805FR-076R8L</field>
+        <field name="Note">6.8Ω/1% 0805 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DAC/" tstamps="/56EC020E/"/>
+      <tstamp>576D4ECC</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>6R8</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08W6R80FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2447032</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">603-RC0805FR-076R8L</field>
+        <field name="Note">6.8Ω/1% 0805 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DAC/" tstamps="/56EC020E/"/>
+      <tstamp>576D51AD</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>6R8</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08W6R80FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2447032</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">603-RC0805FR-076R8L</field>
+        <field name="Note">6.8Ω/1% 0805 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DAC/" tstamps="/56EC020E/"/>
+      <tstamp>576D51BC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>6R8</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08W6R80FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2447032</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">603-RC0805FR-076R8L</field>
+        <field name="Note">6.8Ω/1% 0805 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DAC/" tstamps="/56EC020E/"/>
+      <tstamp>576D51CF</tstamp>
     </comp>
   </components>
   <libparts>
@@ -676,11 +761,11 @@
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -693,28 +778,28 @@
       <node ref="PP2" pin="1"/>
     </net>
     <net code="3" name="/DAC/~LDAC">
-      <node ref="U3" pin="4"/>
       <node ref="A1" pin="4"/>
+      <node ref="U3" pin="4"/>
     </net>
     <net code="4" name="/LCD_E">
-      <node ref="A1" pin="A1"/>
       <node ref="LCD1" pin="6"/>
+      <node ref="A1" pin="A1"/>
     </net>
     <net code="5" name="/3V3to5V/D0">
-      <node ref="U1" pin="2"/>
       <node ref="P1" pin="7"/>
+      <node ref="U1" pin="2"/>
     </net>
     <net code="6" name="/LCD_D4">
       <node ref="A1" pin="A2"/>
       <node ref="LCD1" pin="11"/>
     </net>
     <net code="7" name="/LCD_D5">
-      <node ref="A1" pin="A3"/>
       <node ref="LCD1" pin="12"/>
+      <node ref="A1" pin="A3"/>
     </net>
     <net code="8" name="/LCD_D6">
-      <node ref="A1" pin="A4"/>
       <node ref="LCD1" pin="13"/>
+      <node ref="A1" pin="A4"/>
     </net>
     <net code="9" name="/LCD_D7">
       <node ref="LCD1" pin="14"/>
@@ -725,41 +810,40 @@
       <node ref="A1" pin="A0"/>
     </net>
     <net code="11" name="GND">
-      <node ref="C7" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="LCD1" pin="1"/>
+      <node ref="LCD1" pin="5"/>
+      <node ref="U3" pin="10"/>
       <node ref="C4" pin="2"/>
       <node ref="C6" pin="2"/>
-      <node ref="LCD1" pin="16"/>
-      <node ref="U3" pin="10"/>
-      <node ref="LCD1" pin="5"/>
-      <node ref="R5" pin="2"/>
-      <node ref="U2" pin="15"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U4" pin="2"/>
       <node ref="A1" pin="GND"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="LCD1" pin="16"/>
       <node ref="P1" pin="15"/>
-      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="8"/>
       <node ref="U2" pin="1"/>
       <node ref="U2" pin="8"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U2" pin="15"/>
+      <node ref="C1" pin="2"/>
       <node ref="U1" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="LCD1" pin="1"/>
-      <node ref="C2" pin="2"/>
     </net>
     <net code="12" name="/DAC/LCD_CONT">
-      <node ref="R2" pin="1"/>
       <node ref="LCD1" pin="3"/>
+      <node ref="R2" pin="1"/>
     </net>
     <net code="13" name="+5V">
       <node ref="U2" pin="16"/>
-      <node ref="C1" pin="1"/>
-      <node ref="LCD1" pin="2"/>
-      <node ref="C2" pin="1"/>
       <node ref="A1" pin="5V"/>
+      <node ref="LCD1" pin="2"/>
       <node ref="U1" pin="16"/>
       <node ref="C4" pin="1"/>
       <node ref="U3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
       <node ref="C3" pin="1"/>
     </net>
     <net code="14" name="Net-(LCD1-Pad7)">
@@ -776,13 +860,12 @@
     </net>
     <net code="18" name="/DAC/LCD_BKL">
       <node ref="LCD1" pin="15"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="C7" pin="1"/>
       <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="3"/>
     </net>
     <net code="19" name="/3V3to5V/~RST_5V">
-      <node ref="R1" pin="1"/>
       <node ref="A1" pin="RST1"/>
+      <node ref="R1" pin="1"/>
     </net>
     <net code="20" name="/3V3to5V/~CS_5V">
       <node ref="A1" pin="7"/>
@@ -793,8 +876,8 @@
       <node ref="U2" pin="9"/>
     </net>
     <net code="22" name="/3V3to5V/A0_5V">
-      <node ref="A1" pin="6"/>
       <node ref="U2" pin="7"/>
+      <node ref="A1" pin="6"/>
     </net>
     <net code="23" name="/3V3to5V/D4_5V">
       <node ref="U1" pin="11"/>
@@ -805,45 +888,45 @@
     </net>
     <net code="25" name="/DAC/SCL">
       <node ref="P1" pin="8"/>
-      <node ref="A1" pin="3"/>
       <node ref="U3" pin="2"/>
+      <node ref="A1" pin="3"/>
     </net>
     <net code="26" name="/DAC/SDA">
-      <node ref="P1" pin="6"/>
-      <node ref="U3" pin="3"/>
       <node ref="A1" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="P1" pin="6"/>
     </net>
     <net code="27" name="/3V3to5V/D6">
-      <node ref="P1" pin="12"/>
       <node ref="U2" pin="2"/>
+      <node ref="P1" pin="12"/>
     </net>
     <net code="28" name="/3V3to5V/A1">
-      <node ref="U2" pin="10"/>
       <node ref="P1" pin="3"/>
+      <node ref="U2" pin="10"/>
     </net>
     <net code="29" name="/3V3to5V/A0">
-      <node ref="P1" pin="1"/>
       <node ref="U2" pin="6"/>
+      <node ref="P1" pin="1"/>
     </net>
     <net code="30" name="/3V3to5V/D4">
-      <node ref="U1" pin="12"/>
       <node ref="P1" pin="16"/>
+      <node ref="U1" pin="12"/>
     </net>
     <net code="31" name="/3V3to5V/D5">
-      <node ref="P1" pin="14"/>
       <node ref="U1" pin="14"/>
+      <node ref="P1" pin="14"/>
     </net>
     <net code="32" name="/3V3to5V/~CS">
       <node ref="U2" pin="12"/>
       <node ref="P1" pin="5"/>
     </net>
     <net code="33" name="/3V3to5V/D7">
-      <node ref="P1" pin="10"/>
       <node ref="U2" pin="4"/>
+      <node ref="P1" pin="10"/>
     </net>
     <net code="34" name="/3V3to5V/D3">
-      <node ref="U1" pin="10"/>
       <node ref="P1" pin="13"/>
+      <node ref="U1" pin="10"/>
     </net>
     <net code="35" name="/3V3to5V/D2">
       <node ref="P1" pin="11"/>
@@ -866,8 +949,8 @@
       <node ref="U2" pin="5"/>
     </net>
     <net code="40" name="/3V3to5V/D3_5V">
-      <node ref="A1" pin="MI"/>
       <node ref="U1" pin="9"/>
+      <node ref="A1" pin="MI"/>
     </net>
     <net code="41" name="/3V3to5V/D2_5V">
       <node ref="U1" pin="7"/>
@@ -878,8 +961,8 @@
       <node ref="A1" pin="SCK"/>
     </net>
     <net code="43" name="/3V3to5V/D0_5V">
-      <node ref="A1" pin="SS"/>
       <node ref="U1" pin="3"/>
+      <node ref="A1" pin="SS"/>
     </net>
     <net code="44" name="/3V3to5V/~RST">
       <node ref="P1" pin="4"/>
@@ -904,56 +987,80 @@
       <node ref="A1" pin="RX"/>
     </net>
     <net code="51" name="+12V">
-      <node ref="A1" pin="VI"/>
       <node ref="C6" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="U4" pin="5"/>
       <node ref="P1" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="A1" pin="VI"/>
+      <node ref="R13" pin="1"/>
     </net>
     <net code="52" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2"/>
       <node ref="U2" pin="13"/>
     </net>
-    <net code="53" name="/DAC/DAC_C">
-      <node ref="U3" pin="8"/>
-      <node ref="PP3" pin="1"/>
+    <net code="53" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="1"/>
     </net>
-    <net code="54" name="/DAC/DAC_D">
-      <node ref="PP4" pin="1"/>
-      <node ref="U3" pin="9"/>
+    <net code="54" name="Net-(Q1-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="1"/>
     </net>
     <net code="55" name="Net-(C5-Pad1)">
       <node ref="R3" pin="1"/>
       <node ref="C5" pin="1"/>
       <node ref="R4" pin="2"/>
     </net>
-    <net code="56" name="Net-(U3-Pad5)">
-      <node ref="U3" pin="5"/>
-    </net>
-    <net code="57" name="Net-(Q1-Pad1)">
-      <node ref="Q1" pin="1"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="58" name="Net-(R4-Pad1)">
+    <net code="56" name="Net-(R4-Pad1)">
       <node ref="U4" pin="3"/>
       <node ref="R4" pin="1"/>
     </net>
-    <net code="59" name="Net-(R2-Pad2)">
-      <node ref="R2" pin="2"/>
-      <node ref="U3" pin="7"/>
+    <net code="57" name="Net-(R11-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="1"/>
     </net>
-    <net code="60" name="/DAC/LCD_BKL_CTRL">
+    <net code="58" name="Net-(R10-Pad1)">
+      <node ref="R11" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="59" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="60" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="61" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="62" name="Net-(R10-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="64" name="/DAC/LCD_BKL_CTRL">
       <node ref="R3" pin="2"/>
       <node ref="U3" pin="6"/>
     </net>
-    <net code="61" name="Net-(R5-Pad1)">
-      <node ref="R6" pin="2"/>
-      <node ref="U4" pin="4"/>
-      <node ref="R5" pin="1"/>
+    <net code="65" name="Net-(R2-Pad2)">
+      <node ref="U3" pin="7"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="62" name="Net-(R7-Pad2)">
-      <node ref="R7" pin="2"/>
-      <node ref="U4" pin="1"/>
+    <net code="66" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="67" name="/DAC/DAC_D">
+      <node ref="PP4" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="68" name="/DAC/DAC_C">
+      <node ref="PP3" pin="1"/>
+      <node ref="U3" pin="8"/>
     </net>
   </nets>
 </export>

@@ -1,7 +1,7 @@
 Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Alt. Supplier, Alt. Order Code, Note
 A1 ,1,Arduino MICRO,jakub:ArduinoMicro,,A000053,Arduino,Arduino MICRO,Farnell,2285194,Arduino.cc,Arduino MICRO,Arduino/Genuino MICRO development board
 C1 C2 C4 C6 ,4,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
-C3 C5 C7 ,3,4u7/25V,Capacitors_SMD:C_0805,,GRM21BR61E475MA12L,Murata,0805,Farnell,2362111,Mouser,81-GRM21BR61E475MA2L,4.7μF/25V X5R 0805 ceramic capacitor
+C3 C5 ,2,4u7/25V,Capacitors_SMD:C_0805,,GRM21BR61E475MA12L,Murata,0805,Farnell,2362111,Mouser,81-GRM21BR61E475MA2L,4.7μF/25V X5R 0805 ceramic capacitor
 LCD1 ,1,LCD2004,jakub:LCD2004,,MC42005A12W-VNMLR,Midas,98mm×60mm,Farnell,2483355,Mouser,763-0420DZ-FL-YBW,20x4 character liquid crystal display
 P1 ,1,2x8 header strip,Pin_Headers:Pin_Header_Straight_2x08,,M20-9980845,Harwin,DIL-16,Farnell,1022239,Mouser,855-M20-9980845,2x8 dual header strip
 PP1 PP2 PP3 PP4 ,4,CONN_01X01,jakub:PIN_ARRAY_1,
@@ -10,6 +10,7 @@ R1 ,1,1k5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,0805,Farnell,2447592,Mo
 R2 R4 R5 R6 ,4,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,0805,Farnell,2073607,Mouser,71-CRCW0805-10K-E3,10kΩ/1% 0805 resistor
 R3 ,1,100k,Resistors_SMD:R_0805,,MCWR08X1003FTL,Multicomp,0805,Farnell,2447551,Mouser,71-CRCW0805-100K-E3,100kΩ/1% 0805 resistor
 R7 ,1,47R,Resistors_SMD:R_0805,,MCWR08X47R0FTL,Multicomp,0805,Farnell,2447666,Mouser,667-ERJ-6GEYJ470V,47Ω/1% 0805 resistor
+R10 R11 R12 R13 R8 R9 ,6,6R8,Resistors_SMD:R_0805,,MCWR08W6R80FTL,Multicomp,0805,Farnell,2447032,Mouser,603-RC0805FR-076R8L,6.8Ω/1% 0805 resistor
 U1 U2 ,2,74AHCT367,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,SN74AHCT367D,Texas Instruments,SOIC-16,Farnell,1740954,Mouser,595-SN74AHCT367D,Hex buffer and line driver with 3-state output
 U3 ,1,MCP4728,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,MCP4728-E/UN,Microchip,MSOP-10,Farnell,1800217,Mouser,579-MCP4728-E/UN,12-bit quad digital-to-analog converter with EEPROM memory
 U4 ,1,TLV2371,TO_SOT_Packages_SMD:SOT-23-5,,TLV2371IDBVT,Texas Instruments,SOT-23-5,Farnell,8454990,Mouser,595-TLV2371IDBVT,3 MHz rail-to-rail input/output operational amplifier
